@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="reglogin.master.cs" Inherits="masterpage.reglogin" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>ShoeMart</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <style>
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #FFB6C1, #FFCCE2, #E6E6FA); /* Soft Pastels gradient */
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95); /* Slightly increased opacity for a cleaner look */
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Slightly softer shadow */
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 2.2rem;
+            color: #2C6B2F; /* Greenish shade */
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 1rem;
+            color: #333; /* Darker text for readability */
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #4CAF50, #388E3C); /* Green gradient for the button */
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 30px;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Softer shadow on the button */
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <!-- Master page placeholder for content -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+
+     
+
+    
+
+
+
